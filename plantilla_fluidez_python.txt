@@ -1,0 +1,26 @@
+'''
+    -El reto de diseño de este programa es llegar al estado de fluidez 
+     recorriendo los conceptos básicos de la sintaxis de Python. 
+    -No se prentende aun entrenar algoritmos complejos.
+    -El proceso de escribir este programa se debe sentir como tocar un 
+     instrumento musical en una canción. 
+    -Una vez podamos escribir este programa usando todos los conceptos basicos de Python
+     sin usar la plantilla y sin esfuerzo mental, como cuando nos subimos en una bicicleta, podemos 
+     agregar nuevos conceptos más avanzados poco a poco. 
+
+     Ideas : 
+        Paradigma visual :
+                    + los objetos son lo que reune practicamente todos los conceptos. 
+                      podemos empezar con un caracter cuadrado como una particula. 
+                      Esta particula será un tipo de particula base para formar otros objetos.
+                      podemos tener otros tipos de particulas, o caracteres que serán un tipo de objeto 
+                      diferente cada una y servirán para crear objetos más grandes. podemos pensar en las particulas
+                      como atómos, los atomos de un mismo tipo forman moleculas de elementos de la tabla periodica, 
+                      cada uno con caracteristicas particulares.
+                      Combinando diferentes elementos obtenemos compuestos y asi se va formando todo lo que vemos en el 
+                      universo a partir de los atomos que a su vez están formados por electrones, protones y neutrone.
+            
+                 
+                     '''
+
+
