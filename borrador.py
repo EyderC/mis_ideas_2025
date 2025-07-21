@@ -23,6 +23,8 @@ ROJO = chr(UNICODE_COLOR_ROJO)      #convierte unicode del color rojo del coraz�
 
 #---------------------------------------------------------------------------
 input()
+UNICODE_CUADRADO_MARRON = 0X1F7EB
+CUADRADO_MARRON = chr(UNICODE_CUADRADO_MARRON)
 
 for item in range(3):           #contruye una fila de 3 cuadrados marrones 
     print("🟫", end='')
@@ -34,12 +36,12 @@ for item in range(2):            #contruye un bloque de 2x2 cuadrados marrones
     for item in range(2):
         print("🟫", end='')
     print('')
-                #construye un techo de longitud de 30 bloques de 2x2 con una separación de un espacio 
-input()         #si tu pantalla no es muy grande reduce la cantidad de bloques
-os.system(BORRAR)
+                
+input()         
+os.system(BORRAR)       #borra la pantalla 
 
-for item in range(2):
-    for item in range(30):
+for item in range(2):       #construye un techo de longitud de 30 bloques de 2x2 con una separación de un espacio 
+    for item in range(30):      #si tu pantalla no es muy grande reduce la cantidad de bloques
         for item in range(2):
             print("🟫", end='')
             print('',end='') 
@@ -47,32 +49,46 @@ for item in range(2):
     print('')
 
 
-for item in range(7):       #construye un muro de 5 x 7 cuadriculas a 15 espacios desdde el inicio de la linea
-    for item in range(15):       #crea 15 espacios seguidos en la misma linea 
+for item in range(7):       #construye un muro de 5 x 7 cuadriculas a 25 espacios desdde el inicio de la linea
+    for item in range(25):  # y en cada linea a 20 espacios crea una fila de tres cuadriculas   
         print(" ", end='')
     print("🟫"*5, end='')
-    for item in range(15):
+    for item in range(20):      
         print(' ', end='')
     print("🟫"*3)
 
-for item in range(5):
-    for item in range(40):
+for item in range(4):       #a una distancia de 60 espacios crea un bloque de 4x3 para continuar el muro 
+    for item in range(55):
         print(" ", end='')
     print("🟫"*3)
 
-#crea un esṕacio de 5 print
-for item in range(5):
-    print('')
+#A PARTIR DE AQUI USAR IF PARA INTENTAR CREAR LA ESCALERA DESCENDENTE #
+
+for item in range(28):      #crea una fila de 4 cuadrados a una distancia de 28 espacios
+    print(" ", end='')
+print("🟫"*4)  
+for item in range(28):      #crea una fila de 4 cuadrados a una distancia de 28 espacios
+    print(" ", end='')     
+print("🟫"*4)
+
+for item in range(24):      #crea una fila de 6 cuadrados a una distancia de 25 espacios
+    print(" ", end='')
+print("🟫"*6)  
+for item in range(24):      #crea una fila de 8 cuadrados a una distancia de 25 espacios
+    print(" ", end='')
+print("🟫"*6)
+
+
     
-#construye un bloque de  5x20 a una distancia de 20 espaciosd esde el inicio
-for item in range(5):
-    for item in range(20):
+
+for item in range(5):       #construye un bloque de  5x20 a una distancia de 24 espacios desde el inicio
+    for item in range(24):
         print(" ", end='')
     print("🟫"*20)
 
-#construye un piso de 30 bloques de 2x2
 
-for item in range(2):
+
+for item in range(2):       #construye un piso de 30 bloques de 2x2
     for item in range(60):
         print("🟫",end='')
     print('')
