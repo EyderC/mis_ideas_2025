@@ -1,0 +1,10 @@
+[
+    {
+        "id": 2,
+        "pregunta": "10-1. Aprendiendo Python: Abre un archivo en blanco en tu editor de texto y escribe algunas líneas que resuman lo que has aprendido sobre Python hasta ahora.\n Comienza cada línea con la frase «En Python puedes…». Guarda el archivo como learning_python.txt en el mismo directorio que los ejercicios de este capítulo.\n Escribe un programa que lea el archivo e imprima lo que escribiste dos veces: una vez, leyendo el archivo completo, y otra, almacenando las líneas en una lista y luego iterando sobre cada línea.",
+        "respuesta": "from pathlib import Path\n\narchivo = Path(\"learning_python.txt\")\nprint(\"\\narchivo completo\\n\".title())\nprint(f\"{archivo.read_text().title()}\")\n\nprint(f\"\\narchivo por lineas\".title())\n\ncontenido_archivo = archivo.read_text()\nlineas = contenido_archivo.splitlines()\n\nnum_linea = 0\nfor linea in lineas:\n   num_linea += 1\n   print(f\"\\t {num_linea} {linea}\".title())\nprint()",
+        "imagen": "/home/eyder/repos/python_work/mis_ideas_2025/mis_ideas_2025/flashcards/img/id_2.png",
+        "nivel_memoria": 0,
+        "ultima_revision": null
+    }
+]

@@ -56,7 +56,7 @@ time.sleep(UN_SEGUNDO)
 # Tiempo aprox. = 30min
 #-----------------------------------------------------------------------
 input()     #espera hasta que pulses enter
-DECIMA_DE_SEGUNDO = 0.1     #crea una constante de tiempo para una decima de segundo
+DECIMA_DE_SEGUNDO = 0.1    #crea una constante de tiempo para una decima de segundo
 
 os.system(BORRAR)       #borra la pantalla
 print(f"¡programar en python acelera mi corazón! {CORAZON + ROJO}".title())      #imprime un mensaje que acelere tu corazón 
@@ -64,7 +64,7 @@ input()     #espera hast que pulses enter
 os.system(BORRAR)       #borra la pantalla
 
 
-for item in range(15):       #muestra un corazon rojo latiendo 15 veces usando un bucle cada decima de segundo = 0.1
+for item in range(1500):       #muestra un corazon rojo latiendo 15 veces usando un bucle cada decima de segundo = 0.1
         print(CORAZON + ROJO)
         time.sleep(DECIMA_DE_SEGUNDO)
         os.system(BORRAR)    
