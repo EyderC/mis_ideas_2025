@@ -1,0 +1,1 @@
+Archivo para almacenar valores de variables o constantes de configuración 
